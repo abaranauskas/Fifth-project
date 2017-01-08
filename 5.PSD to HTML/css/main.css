@@ -1,0 +1,395 @@
+/*Red tex #e46965*/
+/*Grey text #777*/
+
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700);
+
+html, body, ul, li, h1, h2, h3, h4, h5, h6, img, p {
+	color: #777;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+body {
+	font-size: 14px;
+	letter-spacing: 0.2px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+h2 {
+	color: #e46965;
+	font-size: 40px;
+	font-weight: normal;
+	margin: 15px 0;
+}
+
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+/*-------------------Main navigaition------------------*/
+
+nav {
+	background-color: #dadada;
+	height: 40px;
+}
+
+.menu-icon {
+	display: none;
+}
+
+.nav-list li,
+.social-list li{
+	float: left;
+}
+
+.nav-list li {
+	margin-right: 20px;
+}
+
+.nav-list li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.nav-list {
+	float: left;
+	padding-top: 10px;
+}
+
+.social-list {
+	float: right;
+	margin-top: 5px;
+}
+
+.social-list li {
+	margin-left: 20px;
+}
+
+/*-------------------Header------------------*/
+
+header h1,
+header h3 {
+	font-weight: normal;
+	text-align: center;
+} 
+
+header h1 {
+	font-size: 44px;
+	margin-top: 20px;
+}
+
+header h3 {
+	color: #e46965;
+	font-size:20px;
+	margin-bottom: 20px;
+}
+
+/*-------------------Feature section------------------*/
+
+.feature {
+	background-color: #363636;
+}
+
+.feature-list {
+	background: url(../img/feature-bg.jpg) top center no-repeat;
+	height: 300px;
+}
+
+.feature-list li {
+	float: left;
+	width: 33.333%;
+	height: 300px;
+	border-left: 1px solid white;
+	box-sizing: border-box;
+	text-align: center;
+	padding-top: 100px;
+}
+
+.feature-list li:last-child {
+	border-right: 1px solid white;	
+}
+
+.feature-list li a {
+	display: block;
+	text-decoration: none;
+}
+
+.feature-title {
+	color: white;
+	opacity: .5;
+	font-size: 20px;
+	font-weight: normal;
+	margin-top: 5px;
+}
+
+.feature-list a:hover .feature-title {
+	opacity: 1;
+}
+
+/*-------------------Porfolio------------------*/
+
+.portfolio-samples {
+	background-color: #dadada;
+	padding: 5px 0 20px 0;
+	margin-top: 20px;
+}
+
+.portfolio-list li {
+	position: relative;
+	float: left;
+	background-color: #555;
+	width: 210px;
+	height: 210px;
+	margin-right: 20px; 
+}
+
+.portfolio-list li:last-child {
+	margin-right: 0; 
+}
+
+.port-laptops {
+	background: url(../img/laptops.jpg) center center no-repeat;
+}
+
+.port-acme {
+	background: url(../img/acme-logo.gif) -200px -60px no-repeat;
+}
+
+.port-demoreal {
+	background: url(../img/tablets.jpg) center center no-repeat;
+}
+
+.port-logo {
+	background: url(../img/a-logo.gif) center center no-repeat;
+}
+
+.caption {
+	position: absolute;
+	bottom: 0;
+	width: 210px;
+	height: 52px;
+	background-color: rgba(0,0,0,.5);
+	padding: 7px;
+	box-sizing: border-box;
+}
+
+.caption a {
+	display: block;
+	float: left;
+	width: 105px;
+	color: white;
+	text-decoration: none;
+}
+
+.sample-icon {
+	float: right;
+}
+
+/*-------------------Porfolio------------------*/
+
+footer {
+	position: relative;
+	background-color: #252525;
+	color: #9d9d9d;
+	padding: 20px 0 60px 0;
+}
+
+footer h3 {
+	color: #e46965;
+	font-size: 30px;
+	font-weight: normal;
+	margin: 10px 0;
+}
+
+.col-one-third {
+	float: left;
+	width: 33.33%;
+}
+
+.footer-list dt {
+	font-weight: bold;
+}
+
+.footer-list dd{
+	margin-left: 0;
+	margin-bottom: 20px;
+	font-style: italic;
+}
+
+address {
+	font-style: normal;
+}
+
+address a {
+	color: #9d9d9d;
+	text-decoration: none;
+	font-style: italic;
+}
+
+address a:hover {
+	text-decoration: underline;
+}
+
+.registration input {
+	display: block;
+	width: 100%;
+	background-color: #363636;
+	border: 1px solid #6d6d6d;
+	color: #6d6d6d;
+	padding: 10px;
+	margin-bottom: 10px;
+	font-size: 18px;
+	box-sizing: border-box;
+}
+
+.registration button {
+	background-color: #e46965;
+	border: none;
+	color: white;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	width: 100%;
+	padding:10px;
+}
+
+.copyright {
+	position: absolute;
+	bottom: 0;
+	display: block;
+	width: 100%;
+	color: #555;
+	background-color: #1d1d1d;
+	text-align: center;
+	padding: 20px 0;
+}
+
+
+
+/*-------------------Clearfix------------------*/
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+html[xmlns] .clearfix {
+    display: block;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+
+
+/*-------------------Responsive------------------*/
+
+@media (max-width: 899px) {
+	.container { padding: 0 10px; }
+
+	.feature-list { 
+		margin: 0 10px;
+		padding: 0;
+	}
+
+	.portfolio-list {
+		width: 100%;
+	}
+
+	.portfolio-list li {
+		width: 25%;
+		padding: 0;
+		margin: 0;
+	}
+
+	.caption {
+		width: 100%
+	}
+}
+
+
+@media (max-width: 656px) {
+	.menu-icon {
+		display: block;
+		float: left;
+		padding-top: 6px;
+		cursor: pointer;
+	}
+	
+	.nav-list {
+		display: none;
+		position: relative;
+		left: -10px;
+		background-color: #aaa;
+		width: 100%;
+		padding: 10px;
+		margin-top: 6px;
+	}
+
+	.nav-list li {
+		float: none;
+		margin-bottom: 20px;
+	}
+
+	.nav-list li:last-child {
+		margin-bottom: 0;
+	}
+
+	.portfolio-list li {
+		float: none;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.feature-list {
+		background: none;
+		width: 100%;
+		margin: 0;
+		height: auto;
+	}
+
+	.feature-list li {
+		float: none;
+		background-image: url(../img/feature-bg.jpg);
+		height: 120px;
+		border-right: none !important;
+		border-left: none;
+		border-bottom: 1px solid white;
+		width: 100%;
+		text-align: left;
+		padding: 0;		
+	}
+
+	.feature-icon {
+		float: left;
+		margin: 28px 20px 0 10px;
+	}
+
+	.feature-title {
+		line-height: 120px;
+		margin: 0;
+	}
+
+	.feature-web { background-position: top left; }
+	.feature-graphic { background-position: bottom center; }
+	.feature-video {background-position: center right; }
+	
+	.col-one-third {
+		float: none;
+		width: 100%;
+	}
+}
